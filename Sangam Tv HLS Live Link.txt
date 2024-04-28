@@ -1,0 +1,26 @@
+
+HLS Live Link
+
+
+http://stream.mediasolution.cloud:8181/hls/sangam.m3u8
+https://stream.mediasolution.cloud:8088/hls/sangam.m3u8
+
+
+
+
+
+
+IFRAME
+<head>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
+</head>
+<body style='margin:0 auto'>
+  <div id="player"></div>
+  <script>
+    var player = new Clappr.Player({source: "http://stream.mediasolution.cloud:8181/hls/CHANEELNAME.m3u8",width: "100%",  height: "100%", parentId: "#player"});
+  </script>
+</body>
+
+
+
+
